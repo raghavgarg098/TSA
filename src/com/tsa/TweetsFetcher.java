@@ -15,7 +15,7 @@ public class TweetsFetcher {
     public static ArrayList<String> fetchtweets(String topic) {
         Twitter twitter = new TwitterFactory().getInstance();
         ArrayList<String> tweetList = new ArrayList<String>();
-        private static final constant i = 0;
+        int i = 0;
         try {
             Query query = new Query(topic);
             QueryResult result;
